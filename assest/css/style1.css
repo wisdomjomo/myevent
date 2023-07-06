@@ -1,0 +1,159 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body{
+	background-color: #cfe2f3 ;
+}
+
+.full{
+	width: 100%;
+	height: auto;
+	display: flex;
+	padding: 5px;
+}
+
+.thehalf{
+	width: 20%;
+	height: 400px;
+	background-color: #eeeeee;
+	text-align: center;
+}
+
+.thehalf ul {
+  list-style-type: none;
+  margin: 0;
+  margin-top: 20px;
+  padding: 0;
+  width: 100%;
+/*  background-color: #f1f1f1;*/
+}
+
+.thehalf li a {
+  display: block;
+  color:#3d85c6;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color on hover */
+.thehalf li a:hover {
+  background-color: #93c47d;
+  color: white;
+}
+
+.main{
+	display: flex;
+	flex-wrap: wrap;
+	height: auto;
+	justify-content: center;
+	align-items: center;
+	width: 80%;
+	padding: 10px;
+}
+
+.eventntn{
+	display: flex;
+	flex-wrap: wrap;
+	height: auto;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	padding: 10px;
+}
+
+.top{
+	width: 79%;
+	height: auto;
+	margin-bottom: 30px;
+	background-color: #fff;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.yourprofile{
+	width: 52%;
+	height: auto;
+	padding: 10px;
+}
+
+.yourprofile h2{
+	padding-bottom: 20px;
+}
+
+.yourprofile span{
+	color: #93c47d;
+}
+
+.yourprofile p{
+	padding-bottom: 20px;
+}
+
+.yourprofile button{
+	margin-bottom: 20px;
+	background-color: #93c47d;
+	color: #fff;
+	border: none;
+	height: 40px;
+	width: 40%;
+}
+
+.yourprofile a{
+	color: #fff;
+}
+
+.yourprofile a:hover{
+	text-decoration: none;
+}
+
+.cartoon{
+	width: 48%;
+	height: 275px;
+}
+
+.cartoon img{
+	width:100%;
+	height: 275px;
+}
+
+.event_details{
+	background-color: #d9d2e9;
+	width: 380px;
+/*	height: 200px;*/
+	height: auto;
+	margin: 10px;
+	margin-top: 0;
+}
+
+.event_details img{
+	width: 100%;
+	height: 200px;
+}
+
+.event_details h5{
+	padding-top: 5px;
+	padding-bottom: 5px;
+	font-size: 15px;
+	padding-left: 5px;
+}
+
+.event_details button{
+	margin-top: 10px;
+	width: 120px;
+	height: 30px;
+	border: none;
+/*	border-radius: 15px;*/
+	background-color: #674ea7;
+	color: #fff;
+	cursor: pointer;
+	margin-left: 5px;
+	margin-bottom: 5px;
+}
+
+.event_details a{
+	color: #fff;
+	font-size: 15px;
+	text-decoration: none;
+}
